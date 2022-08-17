@@ -1,7 +1,12 @@
-def ramdomMonster(name) :
-    result =[name,5,5, 5]
-    return  result
+import random
 
+def randomMonster(name):
+    
+    pv = random.randint(5, 20)
+    Force = random.randint(3, 8)
+    Armure = random.randint(0, 5)
+    monstre = [name, pv,Force,Armure]
+    return monstre
 
 def function_generation_du_monstre() :
     name  = input('Entrez le nom du monstre : ')
@@ -9,5 +14,4 @@ def function_generation_du_monstre() :
     result = ramdomMonster(name)
 
     return  result
-
 
