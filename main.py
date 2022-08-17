@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 
 def randomMonster(name):
@@ -11,7 +12,16 @@ def randomMonster(name):
 def function_generation_du_monstre() :
     name  = input('Entrez le nom du monstre : ')
     print ( name)
-    result = ramdomMonster(name)
+    result = randomMonster(name)
 
     return  result
+
+# Creation d'un personnage
+
+# titre
+# print ("Crée ton personnage !")
+def personnage (Pseudo, PV, Force, Armure):
+    result = [Pseudo, PV, Force, Armure]
+    return result
+
 
