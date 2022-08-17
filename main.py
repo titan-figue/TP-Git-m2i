@@ -8,5 +8,10 @@ def randomMonster(name):
     monstre = [name, pv,Force,Armure]
     return monstre
 
+def function_generation_du_monstre() :
+    name  = input('Entrez le nom du monstre : ')
+    print ( name)
+    result = ramdomMonster(name)
 
-print(randomMonster("Kraken"))
+    return  result
+
